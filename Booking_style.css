@@ -1,0 +1,120 @@
+body {
+  background-color: beige;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 20px;
+  color: beige;
+  border-radius: 20px;
+  background-color: darkolivegreen;
+}
+
+.main-content {
+  width: 900px;
+  margin: 20px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.page-title {
+  text-align: center;
+  padding-top: 30px;
+  color: darkolivegreen;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.user_details {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input_box {
+  margin-bottom: 20px;
+  width: calc(100% / 2 - 20px);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+select{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  background-color: beige;
+  color: darkolivegreen;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  background-color: beige;
+  color: darkolivegreen;
+}
+
+.button input{
+  height: 45px;
+  width: 50vh;
+  margin-left: 25%;
+  border-radius: 20px;
+  color: darkolivegreen;
+  background-color: beige;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button input:hover {
+  background-color: beige;
+  color: darkolivegreen;
+  letter-spacing: 10px;
+  transform: scale(1.2);
+}
+
+form {
+  display: none;
+}
+
+.button-container {
+  text-align: center;
+  margin: 30px;
+}
+
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+    margin-top: 120vh;
+  }
+  .input_box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}

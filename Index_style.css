@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+body {
+  background-color: beige;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 60px;
+}
+
+.flexbox {
+  margin: 5px;
+  padding: 20px;
+}
+
+.logo-img1 {
+  margin-top: 40px;
+  width: 500px;
+}
+
+.image-title {
+  text-align: end;
+  font-size: 60px;
+  letter-spacing: 10px;
+  padding: 10px;
+  color: darkolivegreen;
+}
+
+.trademark {
+  text-align: center;
+  color: darkolivegreen;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.learn-more{
+  width: 500px;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: darkolivegreen;
+  letter-spacing: 3px;
+  color: beige;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+
+.f2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learn-more:hover {
+  transform: scale(1.5);
+  letter-spacing: 4px;
+}
